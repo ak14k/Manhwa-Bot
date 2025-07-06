@@ -1,2 +1,3 @@
-# Manhwa-Bot
-Read manga from your favorites websites on telegram.
+<centre>
+  <img src="https://ik.imagekit.io/jbxs2z512/c02aecb70c3c6a5b1f51ba09e4d2cc70.jpg?updatedAt=1751111979586">
+</centre>
