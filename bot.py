@@ -8,20 +8,20 @@ import random, os, shutil, asyncio
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 class Vars:
-  API_ID = 18
-  API_HASH = "b9"
+  API_ID = int(os.environ.get("API_ID", ""))
+  API_HASH = os.environ.get("API_HASH", "")
   
-  BOT_TOKEN = "55"
+  BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
   plugins = dict(
     root="TG",
     #include=["TG.users"]
   )
   
-  LOG_CHANNEL = -100
-  UPDATE_CHANNEL = -100
-  DB_URL = "mongodb+srv"
+  LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "")
+  UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "")
+  DB_URL = os.environ.get("DB_URL", "")
   
-  PORT = 8080
+  PORT = int(os.environ.get("PORT", "8080"))
   ADMINS = [1880221341]
   
   IS_PRIVATE = None #True Or None  Bot is for admins only
@@ -30,9 +30,9 @@ class Vars:
   
   DB_NAME = "Manhwadb"
   PING = time()
-  FORCE_SUB_CHANNEL = "Guimi_Zhi_Zhu_Anime"
-  SHORTENER = None
-  SHORTENER_API = ""
+  FORCE_SUB_CHANNEL = os.environ.get("FORCE_SUB_CHANNEL", "")
+  SHORTENER = os.environ.get("SHORTENER", "")
+  SHORTENER_API = os.environ.get("SHORTENER_API", "") # put {} for url, ex: shornter.api?url={}
   DURATION = 24 # hrs
   PICS = (
     "https://ik.imagekit.io/jbxs2z512/hd-anime-prr1y1k5gqxfcgpv.jpg?updatedAt=1748487947183",
