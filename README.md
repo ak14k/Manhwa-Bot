@@ -48,7 +48,7 @@
     ─「 ᴄʀᴇᴅɪᴛs 」─
 </h3>
 
-- <b>[Dra-Sama](https://github.com/Dra-sama)  ➻  [sᴏᴍᴇᴛʜɪɴɢ](https://github.com/Dra-sama/mangabot) </b>
+- <b>[Dra-Sama](https://github.com/Dra-sama)  ➻  [sᴏᴍᴇᴛʜɪɴɢ](https://github.com/Dra-sama/Manhwa-Bot) </b>
 
 <b>And All [The Contributors](https://github.com/Dra-sama/mangabot/graphs/contributors) Who Helped In Making Manga Bot Useful And Powerful 🖤 </b>
 
