@@ -40,10 +40,10 @@ users_txt = """
 
 web_data = {
     " Comick ": ComickWebs(),
-    " MangaMob ": MangaMobWebs(),
+    #" MangaMob ": MangaMobWebs(),
     " Asura Scans ": AsuraScansWebs(),
-    " Flame Comics": FlameComicsWebs(),
-    " Demonic Scans ": DemonicScansWebs(),
+    #" Flame Comics": FlameComicsWebs(),
+    #" Demonic Scans ": DemonicScansWebs(),
     " Manhua Fast ": ManhuaFastWebs(),
     " Weeb Central ": WeebCentralWebs(),
     " ManhwaClan ": ManhwaClanWebs(),
