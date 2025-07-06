@@ -25,7 +25,7 @@
 
 ----
 
- ## ***Manga Bot***
+ ## ***Manhwa Bot***
 
 <div align=center>
 
@@ -42,6 +42,39 @@
 </p>
 
 
+### Commands
+```
+start - To Check Bot 
+user_setting - Users Setting
+help - To Show help msg
+clean_tasks - To delete Pending Tasks
+subs - To Get sub..
+unsubs - To Unsubs Manga 
+search - To Search Manhwa
+queue - To Check Your Queue
+clean - (ADMINS) To clean  all file
+import - (ADMINS) To Import Files
+export - (ADMINS) To Get File From Bot
+shell - (ADMINS) To Run CMDS
+stats -  To GET Bot Stats
+restart - (ADMINS) To Restart Bot
+broadcast - (ADMINS) To broadcast 
+pbroadcast - (ADMINS) To Pin Boradcast
+add - (ADMINS) To ADD Premium's Users
+del - (ADMINS) To DELETE PREMUIMS Users
+premium_users - (ADMINS) PREMUIM USERS LIST
+del_expired - (ADMINS) To DELETE ALL PREMUIM USERS
+```
+
+## 🗄 ***Deployment Guide***
+<details>
+    <summary>Click Here</summary>
+    <ul>
+        <li>
+            <details><b>To Host At Vps</b></details>
+        </li>
+    </ul>
+</details>
 ━━━━━━━━━━━━━━━━━━━━
 
 <h3 align="center">
