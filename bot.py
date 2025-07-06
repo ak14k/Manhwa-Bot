@@ -24,16 +24,16 @@ class Vars:
   PORT = int(os.environ.get("PORT", "8080"))
   ADMINS = [1880221341]
   
-  IS_PRIVATE = None #True Or None  Bot is for admins only
-  CONSTANT_DUMP_CHANNEL = None
-  WEBS_HOST = None # For Render and Koyeb
+  IS_PRIVATE = os.environ.get("IS_PRIVATE", None) #True Or None  Bot is for admins only
+  CONSTANT_DUMP_CHANNEL = os.environ.get("CONSTANT_DUMP_CHANNEL", None)
+  WEBS_HOST = os.environ.get("WEBS_HOST", None) # For Render and Koyeb
   
   DB_NAME = "Manhwadb"
   PING = time()
   FORCE_SUB_CHANNEL = os.environ.get("FORCE_SUB_CHANNEL", "")
   SHORTENER = os.environ.get("SHORTENER", "")
   SHORTENER_API = os.environ.get("SHORTENER_API", "") # put {} for url, ex: shornter.api?url={}
-  DURATION = 24 # hrs
+  DURATION = int(os.environ.get("DURATION", "20")) # hrs
   PICS = (
     "https://ik.imagekit.io/jbxs2z512/hd-anime-prr1y1k5gqxfcgpv.jpg?updatedAt=1748487947183",
     "https://ik.imagekit.io/jbxs2z512/naruto_GxcPgSeOy.jpg?updatedAt=1748486799631",
