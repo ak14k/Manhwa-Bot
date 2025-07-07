@@ -32,7 +32,7 @@
 ℹ️ A Powerful Pyrogram Based Telegram Manga Downloader.|
 ---|
     
-### ***Source Code*** : [Repo](Dra-Sama/mangabot)
+### ***Source Code*** : [Repo](Dra-Sama/Manhwa-Bot)
 
 #### Note: `If you Like My Work, Give Stars ⭐ to the Repo and Follow Me on Github`
 ####    If You Want To Host Your Own Bot Then Change Your bot.py File
@@ -40,9 +40,19 @@
 ----
 </div>
 </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 
 
-### Commands
+### 1. ***Commands***
 ```
 start - To Check Bot 
 user_setting - Users Setting
@@ -66,24 +76,79 @@ premium_users - (ADMINS) PREMUIM USERS LIST
 del_expired - (ADMINS) To DELETE ALL PREMUIM USERS
 ```
 
-## 🗄 ***Deployment Guide***
+### 2. ***Env Variables***
 <details>
-    <summary>Click Here</summary>
-    <ul>
+    <summary><b>Click Here</b></summary>
+    <code>API_ID</code>: <b><i>Get this value from my.telegram.org</i></b><br>
+    <code>API_HASH</code>: <b><i>Get this value from my.telegram.org</i></b><br>
+    <code>BOT_TOKEN</code>: <b><i>Make a bot from @BotFather and enter the token here.</i></b><br>
+    <code>LOG_CHANNEL</code>: <b><i>[Optional] Channel ID Of Log Channel</i></b><br>
+    <code>UPDATE_CHANNEL</code>: <b><i>[Optional] Channel ID Of Updates Channel Where you will get news about lastest chapter</i></b><br>
+    <code>DB_URL</code>: <b><i>MongoDB Url, get from mongodb.com </i></b><br>
+    <code>ADMINS</code>: <b><i>[Optional] Admins Users Which can get acess to bot settings</i></b><br>
+    <code>IS_PRIVATE</code>: <b><i>[Optional] True Or None, if Bot is for admins only</i></b><br>
+    <code>WEBS_HOST</code>: <b><i>[Optional] True, if You host at Koyeb and Render or None for Vps</i></b><br>
+    <code>FORCE_SUB_CHANNEL</code>: <b><i>[Optional] Create a new channel (public), copy username wihtout t.me/</i></b><br>
+    <code>SHORTENER</code>: <b><i>[Optional] True, If you want add shornter at bot...</i></b><br>
+    <code>SHORTENER_API</code>: <b><i>[Optional] Shortener Developer API, put {} for url..</i></b><br>
+    <code>DURATION</code>: <b><i>[Optional] Shortener duration, at hours</i></b><br>
+</details>
+
+### 3. ***Deployment***
+<details>
+    <summary><b>Click Here</b></summary>
+    <ul type="arrow">
         <li>
-            <details><b>To Host At Vps</b></details>
+            <details>
+                <summary><b>Deploy on Heroku</b></summary>
+                <b>BEFORE YOU DEPLOY ON HEROKU, YOU SHOULD FORK THE REPO AND CHANGE ITS NAME TO ANYTHING ELSE</b><br>
+                <a href="https://heroku.com/deploy">
+                    <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku">
+                </a><br>
+            </details>
+        </li>
+        <li>
+            <details>
+                <summary><b>Deploy on Koyeb</b></summary>
+                The fastest way to deploy the application is to click the <b>Deploy to Koyeb</b> button below.<br>
+                <a href="https://app.koyeb.com/deploy?type=git&repository=github.com/Dra-Sama/Manhwa-Bot&name=mangabot">
+                    <img src="https://www.koyeb.com/static/images/deploy/button.svg" alt="Deploy to Koyeb">
+                </a><br>
+            </details>
+        </li>
+        <li>
+            <details>
+                <summary><b>Deploy on Vps</b></summary>
+                <b>BEFORE YOU DEPLOY ON VPS, YOU SHOULD FORK THE REPO AND CHANGE ITS NAME TO ANYTHING ELSE</b><br><br>
+                - Clone this repo:
+                    <pre>git clone https://github.com/Dra-Sama/Manhwa-Bot MB && cd MB</pre>
+                - Install docker.io 
+                    <pre>sudo apt get docker.io</pre>
+                - Build Docker 
+                    <pre>sudo docker build . -t mangabot</pre>
+                - Run The Docker
+                    <pre>sudo docker run mangabot</pre>
+                - To Stop Docker 
+                    <pre> sudo docker ps</pre>
+                    - Get container id
+                    <pre>sudo docker stop id</pre>
+            </details>
         </li>
     </ul>
 </details>
-━━━━━━━━━━━━━━━━━━━━
 
-<h3 align="center">
-    ─「 ᴄʀᴇᴅɪᴛs 」─
-</h3>
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+### **Bot Authors**
+<details>
+    <summary><b>Click Here For Description</b></summary>
+    <a href="https://github.com/Dra-Sama">
+        <img width="200" src="https://avatars.githubusercontent.com/u/106417401" alt="Dra Sama">
+    </a>
+    <br>
+    <font style="font-size: xx-large; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+        <b>Dra Sama And All <a href="https://github.com/Dra-sama/mangabot/graphs/contributors">The Contributors</a> Who Helped In Making Manga Bot Useful And Powerful 🖤 </b><br>
+    </font>
+</details>
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-- <b>[Dra-Sama](https://github.com/Dra-sama)  ➻  [sᴏᴍᴇᴛʜɪɴɢ](https://github.com/Dra-sama/Manhwa-Bot) </b>
-
-<b>And All [The Contributors](https://github.com/Dra-sama/mangabot/graphs/contributors) Who Helped In Making Manga Bot Useful And Powerful 🖤 </b>
-
-━━━━━━━━━━━━━━━━━━━━
 
