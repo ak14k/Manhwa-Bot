@@ -151,8 +151,9 @@ del_expired - (ADMINS) To DELETE ALL PREMUIM USERS
     </b>
 </details>
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 ### **Bot Authors**
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 <details>
     <summary><b>Click Here For Description</b></summary>
     <table>
@@ -174,7 +175,7 @@ del_expired - (ADMINS) To DELETE ALL PREMUIM USERS
         </tr>
     </table>
     <font style="font-size: xx-large; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
-        <b><a href="https://github.com/Dra-sama/Manhwa-Bot/graphs/contributors">The Contributors</a> Who Helped In Making Manga Bot Useful And Powerful 🖤 </b><br>
+        <b>=> Thanks To <a href="https://github.com/Dra-sama/Manhwa-Bot/graphs/contributors">The Contributors</a> Who Helped In Making Manga Bot Useful And Powerful 🖤 </b><br>
     </font>
 </details>
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
