@@ -11,3 +11,5 @@ from .manhwaclan import ManhwaClanWebs
 from .templetoons import TempleToonsWebs
 from .manhuaplus import ManhuaplusWebs
 from .mgeko import MgekoWebs
+from .manhwa18 import Manhwa18Webs
+from .manga18fx import Manga18fxWebs
