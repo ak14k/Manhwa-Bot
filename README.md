@@ -155,14 +155,29 @@ del_expired - (ADMINS) To DELETE ALL PREMUIM USERS
 ### **Bot Authors**
 <details>
     <summary><b>Click Here For Description</b></summary>
-    <a href="https://github.com/Dra-Sama">
-        <img width="200" src="https://avatars.githubusercontent.com/u/106417401" alt="Dra Sama">
-    </a>
-    <br>
+    <table>
+        <tr>
+            <td align="center">
+                <a href="https://github.com/Dra-Sama">
+                    <img width="200" src="https://avatars.githubusercontent.com/u/106417401" alt="Dra Sama">
+                </a>
+                <br />
+                <b>Dra Sama</b>
+            </td>
+            <td align="center">
+                <a href="https://telegram.me/Shanks_Kun">
+                    <img width="200" src="https://ik.imagekit.io/jbxs2z512/photo_2025-05-15_20-43-41.jpg?updatedAt=1751970727124" alt="Shanks Kun">
+                </a>
+                <br />
+                <b>Shanks Kun</b>
+            </td>
+        </tr>
+    </table>
     <font style="font-size: xx-large; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
-        <b>Dra Sama And All <a href="https://github.com/Dra-sama/mangabot/graphs/contributors">The Contributors</a> Who Helped In Making Manga Bot Useful And Powerful 🖤 </b><br>
+        <b><a href="https://github.com/Dra-sama/Manhwa-Bot/graphs/contributors">The Contributors</a> Who Helped In Making Manga Bot Useful And Powerful 🖤 </b><br>
     </font>
 </details>
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 
 
