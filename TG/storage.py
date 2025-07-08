@@ -50,6 +50,8 @@ web_data = {
     " TempleToons ":TempleToonsWebs(),
     " Manhuaplus ": ManhuaplusWebs(),
     " Mgeko ": MgekoWebs(),
+    " Manga18fx ": Manga18fxWebs(),
+    " Manhwa18 ":  Manhwa18Webs(),
 }
 
 plugins_name = " ".join(web_data[i].sf for i in web_data.keys())
