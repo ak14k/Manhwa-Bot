@@ -27,11 +27,15 @@ async def get_updates_manga():
             if data_ep_num < ep_num:
               if "Lastest" in dts[data['url']]:
                 chapters = await web_data[i].get_chapters(data)
-                chapter = web_data[i].iter_chapters(chapters)
-                if chapter:
+                chapters = web_data[i].iter_chapters(chapters)
+                if chapters:
                   for chapter in chapters:
-                    chapter_ep = get_episode_number(chapter['title'])
-                    if int(dts[data['url']]['Lastest']) < int(chapter_ep):
+                    try: chapter_ep = int(get_episode_number(chapter['title']))
+                    except: chapter_ep = float(get_episode_number(chapter['title']))
+                    
+                    try: lastest_ep = int(dts[data['url']]['Lastest'])
+                    except: lastest_ep = float(dts[data['url']]['Lastest'])
+                    if lastest_ep < chapter_ep:
                       pictures = await web_data[i].get_pictures(url=data['chapter_url'], data=data)
                       if pictures:
                         data['pictures_list'] = pictures
