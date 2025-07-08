@@ -180,26 +180,13 @@ class AQueue:
                 available = [(task_id, item, lock)
                              for task_id, (item, lock) in self.data.items()
                              if lock not in self._mask]
-                
+
                 if available:
                     task_id, item, lock = available[0]
                     del self.data[task_id]
                     self.acquire(lock)
                     return item, lock, task_id
-                
-                # Safe availability check
-                has_available = False
-                for _, existing_lock in self.data.items():
-                    try:
-                        if existing_lock not in self._mask:
-                            has_available = True
-                            break
-                    except TypeError:
-                        continue
 
-                if not has_available:
-                    self._not_empty.clear()
-                
                 # If queue is completely empty, wait for new items
                 if not self.data:
                     self._not_empty.clear()
@@ -207,7 +194,7 @@ class AQueue:
                     continue
 
                 # If items exist but are all locked, wait for releases
-                await asyncio.sleep(0.1)  # Small delay to prevent busy-waiting
+                await asyncio.sleep(0.1)  # Small delay to prevent busy-w
 
     async def get_test(self, worker_id: int) -> Tuple[Any, Hashable]:
         async with self._get_lock:
