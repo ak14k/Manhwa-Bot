@@ -137,6 +137,19 @@ del_expired - (ADMINS) To DELETE ALL PREMUIM USERS
     </ul>
 </details>
 
+### 4. **Features**
+<details>
+    <summary><b>Click Here</b></summary>
+    <b>
+    ▸ Thumbnail (as per your need)<br>
+    ▸ First & last page banners inside PDF<br>
+    ▸ Format based on your channel style<br>
+    ▸ Custom captions [HTML support]<br>
+    ▸ Merge multiple chapters (2, 5, 10+ for flawless undisturbed experience)<br>
+    ▸ Password-protected PDFs (set your channel name)<br>
+    ▸ Cache/Dump channel (get files directly in your desired channel)<br>
+    </b>
+</details>
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ### **Bot Authors**
 <details>
